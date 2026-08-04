@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب المحاماة | أستاذة معتمدة</title>
+    <meta name="description" content="مكتب محاماة واستشارات قانونية، خبرة واحترافية في التعامل مع مختلف القضايا المدنية والجنائية والتجارية.">
+    
+    <!-- Google Fonts: Cairo for modern Arabic typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-container">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <h2>NOURI SOUAD</h2>
+                <img id="logo" class="logo" src="img/logo avc.png" alt="logo">
+                <!-- <img id="logo" class="logo" src="logo.jpg" alt="logo" > -->
+            </a>
+            
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" data-i18n="nav_home">الرئيسية</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav_services">تخصصاتنا</a></li>
+                    <li><a href="#features" class="nav-link" data-i18n="nav_features">لماذا مكتبنا</a></li>
+                    <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">مكتبنا</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="lang-toggle" class="lang-toggle" aria-label="Translate Page">EN</button>
+                
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="https://wa.me/213698420901" target="_blank" class="btn btn-primary glass-btn">
+                    <i class="fab fa-whatsapp"></i> 0698420901
+                </a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content fade-in-up">
+            <div class="glass-card hero-card">
+                <h1 >   <mark>نوري سعاد</mark> <br>محامية معتمدة لدى المحكمة العليا و مجلس الدولة</h1>
+                <p data-i18n="hero_subtitle">دفاع قوي، استشارات موثوقة، وحلول قانونية متكاملة لضمان حقوقك</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-i18n="btn_order">احجز استشارة الآن</a>
+                    <a href="#services" class="btn btn-outline" data-i18n="btn_discover">اكتشف تخصصاتنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-soft">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>مجالات التخصص
+                    <br>تمثيلكم يكون على مستوى المحاكم الابتدائية ,المجالس القضائية ,المحكمة العليا و مجلس الدولة
+                </h2>
+                <div class="line"></div>
+            </div>
+            <div class="grid-4">
+    <!-- Service 1: القانون المدني -->
+    <div class="service-card glass-card reveal">
+        <div class="icon-wrapper"><i class="fas fa-balance-scale"></i></div>
+        <h3>القانون المدني</h3>
+        <p>حماية حقوقك المالية والشخصية بكفاءة عالية، من خلال صياغة دقيقة للعقود وحلول فعالة للنزاعات والمطالبة بالتعويضات.</p>
+    </div>
+
+    <!-- Service 2: شؤون الأسرة -->
+    <div class="service-card glass-card reveal delay-1">
+        <div class="icon-wrapper"><i class="fas fa-users"></i></div>
+        <h3>شؤون الأسرة</h3>
+        <p>معالجة قضايا الطلاق، النفقة، الحضانة والميراث بحكمة وسرية تامة، مع وضع الجانب الإنساني ومصلحة الأسرة فوق كل اعتبار.</p>
+    </div>
+
+    <!-- Service 3: القانون الجنائي -->
+    <div class="service-card glass-card reveal delay-2">
+        <div class="icon-wrapper"><i class="fas fa-gavel"></i></div>
+        <h3>القانون الجنائي</h3>
+        <p>دفاع مستميت أمام المحاكم الجنائية في مختلف الجنح والجنايات، لضمان محاكمة عادلة وحماية كاملة لحريتك وسمعتك.</p>
+    </div>
+
+    <!-- Service 4: القانون الاجتماعي -->
+    <div class="service-card glass-card reveal delay-3">
+        <div class="icon-wrapper"><i class="fas fa-handshake"></i></div>
+        <h3>القانون الاجتماعي</h3>
+        <p>الدفاع عن حقوق العمال وأرباب العمل، حل نزاعات الطرد التعسفي، حوادث العمل، وضمان بيئة مهنية توافق التشريعات.</p>
+    </div>
+
+    <!-- Service 5: القانون التجاري -->
+    <div class="service-card glass-card reveal">
+        <div class="icon-wrapper"><i class="fas fa-briefcase"></i></div>
+        <h3>القانون التجاري</h3>
+        <p>المرافقة القانونية الشاملة لتأسيس الشركات، إبرام الصفقات، وتحصيل الديون لضمان استقرار ونمو أعمالك التجارية.</p>
+    </div>
+
+    <!-- Service 6: القانون العقاري -->
+    <div class="service-card glass-card reveal delay-1">
+        <div class="icon-wrapper"><i class="fas fa-city"></i></div>
+        <h3>القانون العقاري</h3>
+        <p>تأمين ممتلكاتك عبر تسوية النزاعات العقارية، قضايا الإيجار، التوثيق، واستخراج الدفاتر العقارية بخطوات مدروسة ومضمونة.</p>
+    </div>
+
+    <!-- Service 7: المحكمة الإدارية -->
+    <div class="service-card glass-card reveal delay-2">
+        <div class="icon-wrapper"><i class="fas fa-landmark"></i></div>
+        <h3>القضاء الإداري</h3>
+        <p>تمثيل قانوني قوي لردع التعسف، الطعن في القرارات الإدارية، وحل نزاعات الصفقات العمومية لاسترجاع حقوقك من الإدارة.</p>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Features / Why Choose Us -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>لماذا تختار مكتبنا؟</h2>
+                <div class="line"></div>
+            </div>
+            <div class="grid-4">
+                <div class="feature-item reveal">
+                    <i class="fas fa-award"></i>
+                    <h4>خبرة وكفاءة</h4>
+                    <p>سنوات من الخبرة في الترافع أمام مختلف درجات المحاكم</p>
+                </div>
+                <div class="feature-item reveal delay-1">
+                    <i class="fas fa-user-secret"></i>
+                    <h4>سرية تامة</h4>
+                    <p>نلتزم التزاماً كاملاً بالحفاظ على أسرار الموكلين وخصوصيتهم</p>
+                </div>
+                <div class="feature-item reveal delay-2">
+                    <i class="fas fa-handshake"></i>
+                    <h4>شفافية ومصداقية</h4>
+                    <p>توضيح الوضع القانوني للموكل بكل صدق وشفافية</p>
+                </div>
+                <div class="feature-item reveal delay-3">
+                    <i class="fas fa-tasks"></i>
+                    <h4>متابعة مستمرة</h4>
+                    <p>إطلاع الموكل بشكل دوري على كل مستجدات قضيته</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="section stats-section bg-primary text-white">
+        <div class="container grid-4">
+            <div class="stat-item reveal">
+                <i class="fas fa-check-circle"></i>
+                <span class="counter" data-target="850">0</span>
+                <p>قضية ناجحة</p>
+            </div>
+            <div class="stat-item reveal delay-1">
+                <i class="fas fa-users"></i>
+                <span class="counter" data-target="1200">0</span>
+                <p>موكل راضٍ</p>
+            </div>
+            <div class="stat-item reveal delay-2">
+                <i class="fas fa-scale-balanced"></i>
+                <span class="counter" data-target="15">0</span>
+                <p>سنوات الخبرة</p>
+            </div>
+            <div class="stat-item reveal delay-3">
+                <i class="fas fa-comments"></i>
+                <span class="counter" data-target="3000">0</span>
+                <p>استشارة قانونية</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Office Section -->
+   <!-- Gallery / Office Section -->
+<section id="gallery" class="section">
+    <div class="container">
+        <div class="section-title reveal">
+            <h2>أجواء المكتب</h2>
+            <p>بيئة احترافية تضمن لك الراحة والخصوصية</p>
+            <div class="line"></div>
+        </div>
+        <div class="grid-3">
+            
+            <!-- الكادر الأول (صورة للمكتب 1) -->
+            <div class="gallery-item glass-card reveal">
+                <!-- حط مسار الصورة تاعك بين المزدوجتين في src بلاصة النص العربي -->
+                <img src="img/avc2.png" alt="صورة للمكتب 1" class="gallery-image">
+            </div>
+
+            <!-- الكادر الثاني (صورة قاعة الاجتماعات) -->
+            <div class="gallery-item glass-card reveal delay-1">
+                <!-- حط مسار الصورة تاعك بين المزدوجتين في src بلاصة النص العربي -->
+                <img src="img/qcv.png" alt="صورة قاعة الاجتماعات" class="gallery-image">
+            </div>
+
+            <!-- الكادر الثالث (صورة للمكتب 2) -->
+            <div class="gallery-item glass-card reveal delay-2">
+                <!-- حط مسار الصورة تاعك بين المزدوجتين في src بلاصة النص العربي -->
+                <img src="img/avc back3.jpg" alt="صورة للمكتب 2" class="gallery-image">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Working Process Section -->
+    <section class="section bg-soft">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>كيف نعمل؟</h2>
+                <div class="line"></div>
+            </div>
+            <div class="process-wrapper">
+                <div class="process-step reveal">
+                    <div class="step-number">1</div>
+                    <i class="fas fa-calendar-check"></i>
+                    <h4>حجز موعد</h4>
+                </div>
+                <div class="process-step reveal delay-1">
+                    <div class="step-number">2</div>
+                    <i class="fas fa-file-signature"></i>
+                    <h4>دراسة الملف</h4>
+                </div>
+                <div class="process-step reveal delay-2">
+                    <div class="step-number">3</div>
+                    <i class="fas fa-gavel"></i>
+                    <h4>الإجراءات القانونية</h4>
+                </div>
+                <div class="process-step reveal delay-3">
+                    <div class="step-number">4</div>
+                    <i class="fas fa-check"></i>
+                    <h4>تحقيق النتيجة</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Consultation Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>أنواع الاستشارات القانونية</h2>
+                <div class="line"></div>
+            </div>
+            <div class="grid-3">
+                <div class="pricing-card glass-card reveal">
+                    <h3>استشارة هاتفية</h3>
+                    <div class="price">مبدئية</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> تقييم أولي للقضية</li>
+                        <li><i class="fas fa-check"></i> توجيه قانوني سريع</li>
+                        <li class="disabled"><i class="fas fa-times"></i> دراسة وثائق معقدة</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">احجز موعداً</a>
+                </div>
+                <div class="pricing-card glass-card popular reveal delay-1">
+                    <div class="badge">الأكثر طلباً</div>
+                    <h3>استشارة مكتبية</h3>
+                    <div class="price">شاملة</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> دراسة مفصلة للملف</li>
+                        <li><i class="fas fa-check"></i> فحص الوثائق والأدلة</li>
+                        <li><i class="fas fa-check"></i> وضع استراتيجية قانونية</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">احجز موعداً</a>
+                </div>
+                <div class="pricing-card glass-card reveal delay-2">
+                    <h3>الشركات والأعمال</h3>
+                    <div class="price">عقود</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> تمثيل قانوني سنوي</li>
+                        <li><i class="fas fa-check"></i> صياغة ومراجعة العقود</li>
+                        <li><i class="fas fa-check"></i> استشارات مفتوحة للشركة</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & FAQ Section -->
+    <section id="contact" class="section bg-soft">
+        <div class="container">
+            <div class="grid-2">
+                <!-- FAQ -->
+                <div class="faq-section reveal">
+                    <div class="section-title text-right">
+                        <h2>الأسئلة الشائعة</h2>
+                        <div class="line align-right"></div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">هل تترافعون في قضايا خارج العاصمة؟ <i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content">نعم، نحن نمثل موكلينا أمام جميع الجهات القضائية عبر كامل التراب الوطني (محاكم، مجالس قضائية، المحكمة العليا).</div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">ما هي الوثائق المطلوبة في الاستشارة الأولى؟ <i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content">يرجى إحضار بطاقة الهوية، وأي وثائق أو أحكام سابقة أو عقود لها صلة مباشرة بموضوع النزاع لتمكيننا من دراسة الملف بدقة.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper glass-card reveal delay-1">
+                    <div class="section-title text-right">
+                        <h2>احجز استشارتك</h2>
+                        <div class="line align-right"></div>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="الاسم الكامل">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" required placeholder="رقم الهاتف">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" required placeholder="ملخص بسيط عن قضيتك..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">إرسال الطلب</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container text-center reveal">
+            <h2>لا تترك حقوقك تضيع... اتصل بنا الآن</h2>
+            <p>نحن هنا لنقف بجانبك ولضمان حصولك على العدالة التي تستحقها.</p>
+            <a href="https://wa.me/213698420901" target="_blank" class="btn btn-success btn-lg">
+                <i class="fas fa-phone"></i> اتصل بالمكتب: 0698420901
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container grid-4">
+            <div class="footer-info">
+                <h3>مكتب المحاماة</h3>
+                <p>مكتب استشارات قانونية والمحاماة. التزام، سرية، ودفاع مستميت عن حقوق الموكلين.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/213698420901"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#services">التخصصات</a></li>
+                    <li><a href="#gallery">أجواء المكتب</a></li>
+                    <li><a href="#contact">حجز موعد</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>معلومات الإتصال</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.come">MEFTAH</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+213698420901">0698420901</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:nasimakrour2@gmail.com">nasimakrour2@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-map">
+                 <h4>مواعيد العمل</h4>
+                 <p>من الأحد إلى الخميس<br>08:00 صباحاً - 04:00 مساءً</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 مكتب المحاماة. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
