@@ -370,7 +370,7 @@ mark{color: #000000;
 /* --- Footer --- */
 .footer {
     /* رجعتلك إعدادات الخلفية الثابتة اللي تفاهمنا عليها */
-    background-image: url('img/avc back3q.png');
+    background-image: url('avc back3q.png');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
